@@ -11,7 +11,7 @@ Kai įvedamas 0 programa supranta, kad baigėte vesti pažymius ir prašo įvest
 * Duomenys išvedami į ekraną.
 Programa yra apsaugota nuo neteisingo simbolio arba per didelio skaičiaus įrašymo
 
-# v0.1
+# v0.2
 Antroji užduotis
 (v0.1 užduoties "patobulinimas" - nuskaitymas iš failo)
 
