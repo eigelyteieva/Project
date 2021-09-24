@@ -11,4 +11,13 @@ Kai įvedamas 0 programa supranta, kad baigėte vesti pažymius ir prašo įvest
 * Duomenys išvedami į ekraną.
 Programa yra apsaugota nuo neteisingo simbolio arba per didelio skaičiaus įrašymo
 
+# v0.1
+Antroji užduotis
+(v0.1 užduoties "patobulinimas" - nuskaitymas iš failo)
+
+* Pirmiausia sukuriama struktura Studentas, kurioje yra studento vardas ir pavarde, pazymiai ir egzamino bei galutinis įvertinimas.
+* Tuomet duomenys nuskaitomi iš failo "kursiokai.txt".
+* Duomenys išvedami į failą "rez.txt".
+* Apskaičiuojamas studento galutinis įvertinimas ir mediana. 
+* *Kode matysite ir rikiavimą pagal vardą, tačiau jis nenaudojamas.*
 
