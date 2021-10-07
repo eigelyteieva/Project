@@ -106,7 +106,7 @@ void duom_rankinis (duomenys *A, int &n, string &pasirinkimas)
         float suma=0;
         int pazymiu_skaicius = 0;
         cout<<"Iveskite "<<i+1<<"studento pazymius, kai baigsite vesti - iveskite 0"<<endl;
-        float temp=1.99999;
+        float temp;
         cout<<"1 pazymis: ";
         while ((temp = sveikoSkaiciausPatikrinimas()) && (temp!=0))
         {
