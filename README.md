@@ -8,6 +8,7 @@ Trečioji užduotis
 * Programa suskaičiuoja galutinį studento įvertinimą ir randa medianą.
 * Tuomet prašoma pasirinkti, ką norėsime matyti duomenų išvedime (galutinį pažymį ar medianą).
 * Duomenys išvedami į failą "rez1.txt".
+*Rezultatų faile yra išvestas 1000 duomenų failas su apskaičiuotu galutiniu pažymiu.
 
 
 
