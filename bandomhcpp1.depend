@@ -1,0 +1,665 @@
+# depslib dependency file v1.0
+1634158995 source:c:\users\legion\desktop\informatika 2015\bandomhcpp1\isnumber.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+
+1634165462 source:c:\users\legion\desktop\informatika 2015\bandomhcpp1\main.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"duomenys.h"
+	"duom_automatinis.h"
+	"duom_rankinis.h"
+	"duom_isfailo.h"
+
+1634158771 source:c:\users\legion\desktop\informatika 2015\bandomhcpp1\mediana.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+
+1634158095 c:\users\legion\desktop\informatika 2015\bandomhcpp1\mediana.h
+	"duomenys.h"
+
+1634158861 c:\users\legion\desktop\informatika 2015\bandomhcpp1\duomenys.h
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	<string>
+	<vector>
+
+1634158771 source:c:\users\legion\desktop\informatika 2015\bandomhcpp1\skaiciukas.cpp
+	"skaiciukas.h"
+	"duomenys.h"
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+
+1634158135 c:\users\legion\desktop\informatika 2015\bandomhcpp1\skaiciukas.h
+	<iostream>
+	<string>
+	<vector>
+	<iomanip>
+	<stdlib.h>
+	<sstream>
+	<fstream>
+	<iterator>
+	"duomenys.h"
+	"spausdinimas.h"
+	"mediana.h"
+
+1634158228 c:\users\legion\desktop\informatika 2015\bandomhcpp1\spausdinimas.h
+	<iostream>
+	<string>
+	<vector>
+	<iomanip>
+	<stdlib.h>
+	<sstream>
+	<fstream>
+	<iterator>
+	"duomenys.h"
+	"mediana.h"
+
+1634164635 source:c:\users\legion\desktop\informatika 2015\bandomhcpp1\spausdinimas.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"spausdinimas.h"
+	"mediana.h"
+
+1634158771 source:c:\users\legion\desktop\informatika 2015\bandomhcpp1\duom_automatinis.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"studentoSkaiciaustikrinimas.h"
+	"duomenys.h"
+	"duom_automatinis.h"
+
+1634158946 c:\users\legion\desktop\informatika 2015\bandomhcpp1\studentoskaiciaustikrinimas.h
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"duom_automatinis.h"
+	"duom_rankinis.h"
+
+1634158946 c:\users\legion\desktop\informatika 2015\bandomhcpp1\duom_automatinis.h
+	<iostream>
+	<string>
+	<vector>
+	<iomanip>
+	<fstream>
+	"studentoSkaiciaustikrinimas.h"
+	"duomenys.h"
+
+1634158946 c:\users\legion\desktop\informatika 2015\bandomhcpp1\duom_rankinis.h
+	<iostream>
+	<string>
+	<vector>
+	<iomanip>
+	<fstream>
+	"studentoSkaiciaustikrinimas.h"
+	"sveikoSkaiciausPatikriniams.h"
+	"duomenys.h"
+
+1634158871 c:\users\legion\desktop\informatika 2015\bandomhcpp1\sveikoskaiciauspatikriniams.h
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"duom_automatinis.h"
+	"duom_rankinis.h"
+
+1634165606 source:c:\users\legion\desktop\informatika 2015\bandomhcpp1\duom_isfailo.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	<vector>
+	<fstream>
+	<iterator>
+	"skaiciukas.h"
+	"duom_isfailo.h"
+
+1634160366 c:\users\legion\desktop\informatika 2015\bandomhcpp1\duom_isfailo.h
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	<vector>
+	<fstream>
+	<iterator>
+	"skaiciukas.h"
+
+1634158771 source:c:\users\legion\desktop\informatika 2015\bandomhcpp1\duom_rankinis.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"studentoSkaiciaustikrinimas.h"
+	"sveikoSkaiciausPatikriniams.h"
+	"duomenys.h"
+	"duom_rankinis.h"
+
+1634158978 source:c:\users\legion\desktop\informatika 2015\bandomhcpp1\duomenys.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"duomenys.h"
+
+1634159013 source:c:\users\legion\desktop\informatika 2015\bandomhcpp1\studentoskaiciaustikrinimas.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"duom_automatinis.h"
+	"duom_rankinis.h"
+	"isNumber.h"
+
+1634158946 c:\users\legion\desktop\informatika 2015\bandomhcpp1\isnumber.h
+	<iostream>
+	<string>
+	<vector>
+	<iomanip>
+	<fstream>
+
+1634159031 source:c:\users\legion\desktop\informatika 2015\bandomhcpp1\sveikoskaiciauspatikriniams.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"duom_automatinis.h"
+	"duom_rankinis.h"
+	"isNumber.h"
+
+1634158771 source:c:\users\legion\desktop\informatika 2015\v03pirmadalis-gera\duom_automatinis.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"studentoSkaiciaustikrinimas.h"
+	"duomenys.h"
+	"duom_automatinis.h"
+
+1634158946 c:\users\legion\desktop\informatika 2015\v03pirmadalis-gera\studentoskaiciaustikrinimas.h
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"duom_automatinis.h"
+	"duom_rankinis.h"
+
+1634158946 c:\users\legion\desktop\informatika 2015\v03pirmadalis-gera\duom_automatinis.h
+	<iostream>
+	<string>
+	<vector>
+	<iomanip>
+	<fstream>
+	"studentoSkaiciaustikrinimas.h"
+	"duomenys.h"
+
+1634158861 c:\users\legion\desktop\informatika 2015\v03pirmadalis-gera\duomenys.h
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	<string>
+	<vector>
+
+1634158946 c:\users\legion\desktop\informatika 2015\v03pirmadalis-gera\duom_rankinis.h
+	<iostream>
+	<string>
+	<vector>
+	<iomanip>
+	<fstream>
+	"studentoSkaiciaustikrinimas.h"
+	"sveikoSkaiciausPatikriniams.h"
+	"duomenys.h"
+
+1634158871 c:\users\legion\desktop\informatika 2015\v03pirmadalis-gera\sveikoskaiciauspatikriniams.h
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"duom_automatinis.h"
+	"duom_rankinis.h"
+
+1634312027 source:c:\users\legion\desktop\informatika 2015\v03pirmadalis-gera\duom_isfailo.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	<vector>
+	<fstream>
+	<iterator>
+	"skaiciukas.h"
+	"duom_isfailo.h"
+
+1634158135 c:\users\legion\desktop\informatika 2015\v03pirmadalis-gera\skaiciukas.h
+	<iostream>
+	<string>
+	<vector>
+	<iomanip>
+	<stdlib.h>
+	<sstream>
+	<fstream>
+	<iterator>
+	"duomenys.h"
+	"spausdinimas.h"
+	"mediana.h"
+
+1634158228 c:\users\legion\desktop\informatika 2015\v03pirmadalis-gera\spausdinimas.h
+	<iostream>
+	<string>
+	<vector>
+	<iomanip>
+	<stdlib.h>
+	<sstream>
+	<fstream>
+	<iterator>
+	"duomenys.h"
+	"mediana.h"
+
+1634158095 c:\users\legion\desktop\informatika 2015\v03pirmadalis-gera\mediana.h
+	"duomenys.h"
+
+1634160366 c:\users\legion\desktop\informatika 2015\v03pirmadalis-gera\duom_isfailo.h
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	<vector>
+	<fstream>
+	<iterator>
+	"skaiciukas.h"
+
+1634158771 source:c:\users\legion\desktop\informatika 2015\v03pirmadalis-gera\duom_rankinis.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"studentoSkaiciaustikrinimas.h"
+	"sveikoSkaiciausPatikriniams.h"
+	"duomenys.h"
+	"duom_rankinis.h"
+
+1634158978 source:c:\users\legion\desktop\informatika 2015\v03pirmadalis-gera\duomenys.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"duomenys.h"
+
+1634158995 source:c:\users\legion\desktop\informatika 2015\v03pirmadalis-gera\isnumber.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+
+1634158771 source:c:\users\legion\desktop\informatika 2015\v03pirmadalis-gera\mediana.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+
+1634158771 source:c:\users\legion\desktop\informatika 2015\v03pirmadalis-gera\skaiciukas.cpp
+	"skaiciukas.h"
+	"duomenys.h"
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+
+1634164635 source:c:\users\legion\desktop\informatika 2015\v03pirmadalis-gera\spausdinimas.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"spausdinimas.h"
+	"mediana.h"
+
+1634159013 source:c:\users\legion\desktop\informatika 2015\v03pirmadalis-gera\studentoskaiciaustikrinimas.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"duom_automatinis.h"
+	"duom_rankinis.h"
+	"isNumber.h"
+
+1634158946 c:\users\legion\desktop\informatika 2015\v03pirmadalis-gera\isnumber.h
+	<iostream>
+	<string>
+	<vector>
+	<iomanip>
+	<fstream>
+
+1634159031 source:c:\users\legion\desktop\informatika 2015\v03pirmadalis-gera\sveikoskaiciauspatikriniams.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"duom_automatinis.h"
+	"duom_rankinis.h"
+	"isNumber.h"
+
+1634311618 source:c:\users\legion\desktop\informatika 2015\v03pirmadalis-gera\main.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"duomenys.h"
+	"duom_automatinis.h"
+	"duom_rankinis.h"
+	"duom_isfailo.h"
+
+1634158771 source:c:\users\legion\desktop\informatika 2015\v0.3\duom_automatinis.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"studentoSkaiciaustikrinimas.h"
+	"duomenys.h"
+	"duom_automatinis.h"
+
+1634158946 c:\users\legion\desktop\informatika 2015\v0.3\studentoskaiciaustikrinimas.h
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"duom_automatinis.h"
+	"duom_rankinis.h"
+
+1634158946 c:\users\legion\desktop\informatika 2015\v0.3\duom_automatinis.h
+	<iostream>
+	<string>
+	<vector>
+	<iomanip>
+	<fstream>
+	"studentoSkaiciaustikrinimas.h"
+	"duomenys.h"
+
+1634158861 c:\users\legion\desktop\informatika 2015\v0.3\duomenys.h
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	<string>
+	<vector>
+
+1634158946 c:\users\legion\desktop\informatika 2015\v0.3\duom_rankinis.h
+	<iostream>
+	<string>
+	<vector>
+	<iomanip>
+	<fstream>
+	"studentoSkaiciaustikrinimas.h"
+	"sveikoSkaiciausPatikriniams.h"
+	"duomenys.h"
+
+1634158871 c:\users\legion\desktop\informatika 2015\v0.3\sveikoskaiciauspatikriniams.h
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"duom_automatinis.h"
+	"duom_rankinis.h"
+
+1634158771 source:c:\users\legion\desktop\informatika 2015\v0.3\duom_rankinis.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"studentoSkaiciaustikrinimas.h"
+	"sveikoSkaiciausPatikriniams.h"
+	"duomenys.h"
+	"duom_rankinis.h"
+
+1634158978 source:c:\users\legion\desktop\informatika 2015\v0.3\duomenys.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"duomenys.h"
+
+1634158995 source:c:\users\legion\desktop\informatika 2015\v0.3\isnumber.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+
+1634311618 source:c:\users\legion\desktop\informatika 2015\v0.3\main.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"duomenys.h"
+	"duom_automatinis.h"
+	"duom_rankinis.h"
+	"duom_isfailo.h"
+
+1634160366 c:\users\legion\desktop\informatika 2015\v0.3\duom_isfailo.h
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	<vector>
+	<fstream>
+	<iterator>
+	"skaiciukas.h"
+
+1634158135 c:\users\legion\desktop\informatika 2015\v0.3\skaiciukas.h
+	<iostream>
+	<string>
+	<vector>
+	<iomanip>
+	<stdlib.h>
+	<sstream>
+	<fstream>
+	<iterator>
+	"duomenys.h"
+	"spausdinimas.h"
+	"mediana.h"
+
+1634158228 c:\users\legion\desktop\informatika 2015\v0.3\spausdinimas.h
+	<iostream>
+	<string>
+	<vector>
+	<iomanip>
+	<stdlib.h>
+	<sstream>
+	<fstream>
+	<iterator>
+	"duomenys.h"
+	"mediana.h"
+
+1634158095 c:\users\legion\desktop\informatika 2015\v0.3\mediana.h
+	"duomenys.h"
+
+1634158771 source:c:\users\legion\desktop\informatika 2015\v0.3\mediana.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+
+1634158771 source:c:\users\legion\desktop\informatika 2015\v0.3\skaiciukas.cpp
+	"skaiciukas.h"
+	"duomenys.h"
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+
+1634164635 source:c:\users\legion\desktop\informatika 2015\v0.3\spausdinimas.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"spausdinimas.h"
+	"mediana.h"
+
+1634159013 source:c:\users\legion\desktop\informatika 2015\v0.3\studentoskaiciaustikrinimas.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"duom_automatinis.h"
+	"duom_rankinis.h"
+	"isNumber.h"
+
+1634158946 c:\users\legion\desktop\informatika 2015\v0.3\isnumber.h
+	<iostream>
+	<string>
+	<vector>
+	<iomanip>
+	<fstream>
+
+1634159031 source:c:\users\legion\desktop\informatika 2015\v0.3\sveikoskaiciauspatikriniams.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+	"duom_automatinis.h"
+	"duom_rankinis.h"
+	"isNumber.h"
+

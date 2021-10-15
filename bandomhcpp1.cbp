@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="bandomhcpp1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/bandomhcpp1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/bandomhcpp1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="100.txt" />
+		<Unit filename="1000.txt" />
+		<Unit filename="10000.txt" />
+		<Unit filename="100studentu.txt" />
+		<Unit filename="duom_automatinis.cpp" />
+		<Unit filename="duom_automatinis.h" />
+		<Unit filename="duom_isfailo.cpp" />
+		<Unit filename="duom_isfailo.h" />
+		<Unit filename="duom_rankinis.cpp" />
+		<Unit filename="duom_rankinis.h" />
+		<Unit filename="duomenys.cpp" />
+		<Unit filename="duomenys.h" />
+		<Unit filename="isNumber.cpp" />
+		<Unit filename="isNumber.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="mediana.cpp" />
+		<Unit filename="mediana.h" />
+		<Unit filename="skaiciukas.cpp" />
+		<Unit filename="skaiciukas.h" />
+		<Unit filename="spausdinimas.cpp" />
+		<Unit filename="spausdinimas.h" />
+		<Unit filename="studentoSkaiciaustikrinimas.cpp" />
+		<Unit filename="studentoSkaiciaustikrinimas.h" />
+		<Unit filename="sveikoSkaiciausPatikriniams.cpp" />
+		<Unit filename="sveikoSkaiciausPatikriniams.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
