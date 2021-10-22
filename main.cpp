@@ -275,9 +275,7 @@ int main()
     {
         A=duom_rankinis(A,p,pasirinkimas);
         spausdinimas(A,pasirinkimas,p);
-    start=std::clock();
-    double duration = (std::clock() - start)/(double)CLOCKS_PER_SEC;
-    cout<<"SKAITYMAS UZTRUKO"<<duration<<"s"<<endl;
+   
 
     start=std::clock();
 
