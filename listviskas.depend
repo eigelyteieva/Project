@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1635716088 source:c:\users\legion\desktop\informatika 2015\listviskas\main.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<bits/stdc++.h>
+	<stdexcept>
+	<limits>
+
