@@ -67,16 +67,12 @@ CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz   2.21 GHz
 RAM: 8,00 GB
 SSD: 117 GB
 
-Duomenų nuskaitymas iš failo greitis:
-Konteineris	  1000   	10000	  100 000	  1 000 000	  10 000 000
-Std::vector	  0.013s	0.041s	 0.323s	   3.488s	     32.292s
-Std::list   	0.014s	0.041s	 0.341s		 3.67s       
+**Duomenų nuskaitymas iš failo greitis:**
+![2021-11-03 (2)](https://user-images.githubusercontent.com/91305186/140195840-43ecc771-862c-4094-83fd-2fb1547c8fea.png)
 
 
-Duomenų rūšiavimas į dvi grupes greitis:
-Konteineris	   1000	    10000   	100000  	1000000	  10000000
-Std::vector	   0.001s	  0.001s	  0.042s	   0.42s	   4.043s
-Std::list	     0.002s  	0.41s	    95.611s	   >0.42s	   >4.043s
+**Duomenų rūšiavimas į dvi grupes greitis:**
+![2021-11-03 (3)](https://user-images.githubusercontent.com/91305186/140195844-da183ff4-41b6-4ee5-a4b5-c59bbcc25671.png)
 
 
 
