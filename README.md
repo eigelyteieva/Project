@@ -62,8 +62,8 @@ Ketvirta užduotis
 1. Duomenų nuskaitymas iš failų;
 2. Studentų rūšiąvimas į dvi grupes (kietekaiir vargšiukai).
 
-*Testavimo sistemos parametrai: 
-***CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz   2.21 GHz 
+* Testavimo sistemos parametrai: 
+CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz   2.21 GHz 
 RAM: 8,00 GB
 SSD: 117 GB
 
