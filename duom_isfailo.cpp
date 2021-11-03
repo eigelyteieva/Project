@@ -27,11 +27,14 @@ void duom_isfailo (vector<duomenys> & A,int* pazSkaicius, string &pasirinkimas)
     if (failo_pasirinkimas == 1) { p = "1000.txt";}
     else if (failo_pasirinkimas == 2) {p = "10000.txt";}
     else if (failo_pasirinkimas == 3) {p = "100000.txt";}
-    else {cout<<"Ivedete neteisinga simboli"<<endl;}
 
-    std::ifstream duom(p);
-    if(duom.is_open())
-    {
+    std::ifstream duom;
+    try{
+        duom.open(p);
+
+    if(!duom.is_open())
+        throw 0;
+
         getline(duom>>std::ws, k);
         *pazSkaicius = skaiciukas(k) - 3;
         while(!(cin.fail()))
@@ -52,8 +55,7 @@ void duom_isfailo (vector<duomenys> & A,int* pazSkaicius, string &pasirinkimas)
             A.at(studentu_sk).galutinis_egz = 0.4 * (suma/(A.at(studentu_sk).pazymiai.size()-1))+ 0.6 * A.at(studentu_sk).egzamino_rez;
             studentu_sk++;
         }
-    }
-    cout<<"Jeigu norite matyti galutini egzamino pazymi spauskite G, jeigu mediana - M"<<endl;
+        cout<<"Jeigu norite matyti galutini egzamino pazymi spauskite G, jeigu mediana - M"<<endl;
     cin>>pasirinkimas;
      if ((pasirinkimas != "G") && (pasirinkimas != "g") && (pasirinkimas != "M") && (pasirinkimas != "m") )
     {
@@ -61,7 +63,12 @@ void duom_isfailo (vector<duomenys> & A,int* pazSkaicius, string &pasirinkimas)
         cout<<"Jeigu norite matyti galutini egzamino pazymi spauskite G, jeigu mediana - M";
         cin>>pasirinkimas;
     }
-    else {cout<<"-\n";}
-    duom.close();
+    }
+    catch(int e)
+    {
+        cout<<"Tokio failo nera/Ivedete neteisinga failo pavadinima"<<endl;
+
+    }
+
 }
 
