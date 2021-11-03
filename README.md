@@ -56,5 +56,16 @@ Ketvirta užduotis
 * 10 000 000 duomenų;
 ![2021-10-15 (6)](https://user-images.githubusercontent.com/91305186/137522784-76fc9dff-a017-4832-993a-f872c3a405cd.png)
 
+# v0.5
+* Panaudojamas 0.4 uždavinio kodas, tačiau pakeistas konteineris. 0.5 vietoje std::vector naudojamas std::list. 
+* Išmatuojami dvieju parametrų greitis: 
+1. Duomenų nuskaitymas iš failų;
+2. Studentų rūšiąvimas į dvi grupes (kietekaiir vargšiukai).
+
+*Testavimo sistemos parametrai: 
+**CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz   2.21 GHz 
+**RAM: 8,00 GB
+**SSD: 117 GB
+
 
 
