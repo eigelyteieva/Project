@@ -5,6 +5,7 @@
 #include <bits/stdc++.h>
 #include <stdexcept>
 #include <limits>
+#include <fstream>
 using std::cout;
 using std::cin;
 using std::endl;
@@ -21,6 +22,7 @@ struct duomenys{
     vector<float> pazymiai;
     float egzamino_rez;
     float galutinis_egz;
+    float galutinis_med;
 };
 float mediana(vector<int> pazymiai)
 {
@@ -48,11 +50,10 @@ std::vector<int> automatiniai_paz(int pazkiekis)
 	}
 	return rezultatai;
 }
-int duom_automatinis(vector<int> pazymiai)
+int duom_automatinis(vector<int> pazymiai, string &pasirinkimas,int &p)
 {
     int failo_pasirinkimas;
-    string pasirinkimas;
-    int p;
+
 
     cout<<"Pasirinkite, kurio dydzio faila noresite sugeneruoti: 1 - 1000 duomenu, 2 - 10 000 duomenu, 3 - 100 000 duomenu, 4 - 1 000 000 duomenu, 5 - 10 000 000 duomenu"<<endl;
     cin>>failo_pasirinkimas;
@@ -89,11 +90,12 @@ int duom_automatinis(vector<int> pazymiai)
          rezultatai = automatiniai_paz(10);
          int egzamino_rez = rand() %10+1;
          float galutinis_egz = 0.4 * std::accumulate(rezultatai.begin(), rezultatai.end(), 0) / rezultatai.size() + 0.6 *egzamino_rez ;
+         float galutinis_med = 0.4 * mediana(rezultatai) + 0.6 *egzamino_rez ;
 
          isve<<setw(20)<<"Vardas"+to_string(k)<<setw(20)<<"Pavarde"+to_string(k);
          if (pasirinkimas == "G" || pasirinkimas == "g")
             {isve<<setw(20)<<std::setprecision(3)<<galutinis_egz<<endl;}
-         else{isve<<setw(20)<<std::setprecision(3)<<mediana(rezultatai)<<endl;}
+         else{isve<<setw(20)<<std::setprecision(3)<<galutinis_med<<endl;}
          rezultatai.clear();
     }
     return p;
@@ -161,6 +163,7 @@ list<duomenys> duom_rankinis (list<duomenys> A,int &p, string &pasirinkimas)
         cout<<"Iveskite "<<i+1<<" studento egzamino rezultata: ";
         s.egzamino_rez = sveikoSkaiciausPatikrinimas();
         s.galutinis_egz = 0.4*(suma/(s.pazymiai.size()))+0.6*s.egzamino_rez;
+        s.galutinis_med = 0.4*mediana1(s.pazymiai)+0.6*s.egzamino_rez;
         A.push_back(s);
         }
     cout<<"Jeigu norite matyti galutini egzamino pazymi spauskite G, jeigu mediana - M"<<endl;
@@ -190,7 +193,7 @@ void spausdinimas (list<duomenys> A,string pasirinkimas, int p)
         isve<<setw(20)<<(*s).vardas<<setw(20)<<(*s).pavarde;
         if (pasirinkimas == "G" || pasirinkimas == "g")
         {isve<<setw(20)<<std::setprecision(2)<<(*s).galutinis_egz<<endl;}
-        else{isve<<setw(20)<<mediana1((*s).pazymiai)<<endl;}
+        else{isve<<setw(20)<<(*s).galutinis_med<<endl;}
     }
     isve<<"\n\n";
 }
@@ -218,26 +221,28 @@ void skaitymas(list<duomenys>& A,int p)
         }
     }
 }
- void paskirstymas(list<duomenys> A,int p,list<duomenys> &vargsiukai,list<duomenys> &kietekai)
+ void paskirstymas(list<duomenys> &A,list<duomenys> &vargsiukai)
 {
     for (int i=0; i < A.size(); i++)
     {
         auto s = std::next(A.begin(), i);
-
         if((*s).galutinis_egz < 5.00)
         {
             vargsiukai.push_back(*s);
-        }
-        else if ((*s).galutinis_egz >= 5.00)
-        {
-            kietekai.push_back(*s);
+            A.erase(s);
+            i--;
         }
     }
 }
-void paskirstymo_isve(list<duomenys> vargsiukai, list<duomenys> kietekai)
+
+void paskirstymo_isve(list<duomenys> A,list<duomenys> vargsiukai, string pasirinkimas, int p)
 {
     std::ofstream duom_maz5("vargsiukai.txt");
-    std::ofstream duom_daug5("kietekai.txt");
+
+    string pavadinimas = to_string(p)+".txt";
+    std::ofstream failas(pavadinimas, std::ofstream::trunc);
+    spausdinimas (A,pasirinkimas,p);
+
     for (int i=0; i<vargsiukai.size(); i++)
     {
         auto s = std::next(vargsiukai.begin(),i);
@@ -245,13 +250,9 @@ void paskirstymo_isve(list<duomenys> vargsiukai, list<duomenys> kietekai)
     }
     duom_maz5.close();
 
-    for (int i=0; i<kietekai.size(); i++)
-    {
-        auto s = std::next(kietekai.begin(),i);
-        duom_daug5<<setw(20)<<std::left<<s->vardas<<setw(20)<<std::left<<s->pavarde <<setw(20)<<std::left<<s->galutinis_egz<<endl;
-    }
-    duom_daug5.close();
 }
+
+
 int main()
 {
     list<duomenys> D;
@@ -278,14 +279,14 @@ int main()
         list<duomenys> varg;
         list<duomenys> kiete;
 
-        paskirstymas(D,p,varg,kiete);
-        paskirstymo_isve(varg,kiete);
+        paskirstymas(D,varg);
+        paskirstymo_isve(D,varg,pasirinkimas,p);
 
     }
     else
     {
         vector<int>rezultatai;
-        B = duom_automatinis(rezultatai);
+        B = duom_automatinis(rezultatai,pasirinkimas,p);
 
     start=std::clock();
     skaitymas(D,B);
@@ -297,11 +298,11 @@ int main()
     list<duomenys> varg;
     list<duomenys> kiete;
 
-    paskirstymas(D,B,varg,kiete);
+    paskirstymas(D,varg);
     duration=(std::clock() - start) /(double)CLOCKS_PER_SEC;
     cout<<"Skirstymas uztruko"<<duration<<"s"<<endl;
 
-    paskirstymo_isve(varg,kiete);
+    paskirstymo_isve(D,varg,pasirinkimas,p);
     }
 
     cout<<":)"<<endl;
