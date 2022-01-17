@@ -81,6 +81,15 @@ Spausdinimo ir skirstymo greitis:
 
 Vietos, kuriuose matysite tuščius langelius, tai labai ilgas vykdymo greitis. 
 
+# Naudojimosi instrukcija
+
+Atsidarykite ir paleiskite programą. 
+* Pirmiausia, pasirinkite kaip norite įvesti duomenis: spauskite R jeigu norite duomenis įvesti rankiniu būdu, spauskite F, jeigu norite, kad duomenis nuskaitytų iš failo, spauskite A, jeigu norite, kad duomenis sugeneruotų automatiškai.
+* Jeigu pasirinkote F arba A, pasirinkite kokio dydžio duomenis norėsite naudoti: 1 - 1000, 2 - 10000, 3 - 100000, 4 - 100000, 5 - 10000000.
+* Jeigu pasirinkote įvesti duomenis rankiniu būdu: įveskite kiek studentų duomenų vesite, įveskite kiek pažymių turės studentas, įveskite studento pažymius, kai baigsite spauskite 0.
+* Pasirinkite kokį galutinį rezultatą norite matyti: jeigu skaičiuoti su mediama spauskite M, jeigu su galutiniu pažymiu spauskite G.
+* Paspaudus ENTER pradeda veikti programa. 
+* Rezultatai išvedami į failą. 
 
 
 
