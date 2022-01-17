@@ -67,12 +67,8 @@ CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz   2.21 GHz
 RAM: 8,00 GB
 SSD: 117 GB
 
-**Duomenų nuskaitymas iš failo greitis:**
-![2021-11-03 (2)](https://user-images.githubusercontent.com/91305186/140195840-43ecc771-862c-4094-83fd-2fb1547c8fea.png)
+![2022-01-18 (1)](https://user-images.githubusercontent.com/91305186/149848087-dca7985d-1342-449f-9511-c202268d62df.png)
 
-
-**Duomenų rūšiavimas į dvi grupes greitis:**
-![2021-11-03 (3)](https://user-images.githubusercontent.com/91305186/140195844-da183ff4-41b6-4ee5-a4b5-c59bbcc25671.png)
 
 # v1.0
 
@@ -80,7 +76,8 @@ SSD: 117 GB
 * *2 strategija:* bendro duomenys koneinerio (vector (mainvector.cpp) ir list (mainlist.cpp)) skaidymas panaudojant tik vieną naują konteinerį "vargšiukai". uomenys rušiuonat šalinami su ERASE, o pagrindinis failas perrašomas.
 
 Spausdinimo ir skirstymo greitis: 
-![2021-12-03 (10)](https://user-images.githubusercontent.com/91305186/144515791-d8dc4cb5-3615-403d-95ea-a1e3f21e97fe.png)
+![2022-01-18](https://user-images.githubusercontent.com/91305186/149848097-e8b3c9ef-442d-4e2d-8641-77119c69bd46.png)
+
 
 Vietos, kuriuose matysite tuščius langelius, tai labai ilgas vykdymo greitis. 
 
